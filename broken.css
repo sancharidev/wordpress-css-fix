@@ -1,0 +1,50 @@
+/* ❌ BROKEN VERSION — Common WordPress CSS Issues */
+
+/* Problem 1: Menu overlapping content on mobile */
+.nav-menu {
+  position: absolute;
+  width: 100%;
+  z-index: 1;
+}
+
+/* Problem 2: Featured image stretched and distorted */
+.post-thumbnail img {
+  width: 100%;
+  height: 300px;
+}
+
+/* Problem 3: Footer not sticking to bottom */
+.site-footer {
+  margin-top: 20px;
+}
+
+/* Problem 4: Sidebar overflowing on smaller screens */
+.widget-area {
+  width: 300px;
+  float: right;
+}
+
+/* Problem 5: Button inheriting wrong theme color */
+.woocommerce button.button {
+  background-color: inherit;
+  color: inherit;
+  padding: 5px;
+}
+
+/* Problem 6: Contact Form 7 inputs not full width */
+.wpcf7 input[type="text"],
+.wpcf7 input[type="email"] {
+  width: auto;
+}
+
+/* Problem 7: Headings overflowing on mobile */
+h1, h2, h3 {
+  font-size: 48px;
+  white-space: nowrap;
+}
+
+/* Problem 8: WordPress admin bar pushing content down */
+body {
+  margin-top: 0;
+  padding-top: 0;
+}
